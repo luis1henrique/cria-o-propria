@@ -1,0 +1,25 @@
+
+#lupinha{
+    height: 25px;  
+}
+#pesquisar{
+    width: 500px;
+}
+header input img{
+    height: 99px;
+}
+header input{
+    width: 100px;
+}
+
+header img{
+    height: 99px;
+}
+#section-banners img{
+    height: 300px;
+
+}
+.btn-group{
+    margin: 20px;
+    align-items: center;
+}
