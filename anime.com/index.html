@@ -1,118 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World-anime.com.br</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World-anime.com.br</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  
+
+
 </head>
 
-  <body >
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="logo.png" ></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">carrinho</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">produtos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">novidades</a>
-              </li>
-              <li class="nav-item dropdown">
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Ação</a></li>
-                  <li><a class="dropdown-item" href="#">Outra ação</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Outra coisa aqui</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" id="gods" role="Procurar">
-              <input class="form-control me-2" type="Procurar" placeholder="buscar anime" id="pesquisar" aria-label="Procurar">
-              <button class="btn btn-outline-success" type="submit"><img src="lupa.webp " id="lupinha"></button>
-            </form>
-          </div>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">carrinho</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">novidades</a>
+            </li>
+            <li class="nav-item dropdown">
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ação</a></li>
+                <li><a class="dropdown-item" href="#">Outra ação</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Outra coisa aqui</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" id="gods" role="Procurar">
+            <input class="form-control me-2" type="Procurar" placeholder="buscar anime" id="pesquisar"
+              aria-label="Procurar">
+            <button class="btn btn-outline-success" type="submit"><img src="lupa.webp " id="lupinha"></button>
+          </form>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
   <main>
     <section id="section-banners" class="container">
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="tema1.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="tema2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="tema3.png" class="d-block w-100" alt="...">
-            </div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/tema1.png" class="d-block w-100" alt="...">
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item">
+            <img src="img/tema2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/tema3.png" class="d-block w-100" alt="...">
+          </div>
         </div>
-      </section>
-      <h5>Em Alta</h5>
-      <section id="vendidos" class="container-fluid">
-        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <h5>Em Alta</h5>
+    
+    <section id="vendidos" class="container-fluid">
+      
+      <div class="card" style="width: 18rem;">
+        <img src="img/cami-team 7.webp" class="card-img-top" alt="fantastico">
+        <div class="card-body">
+          <h5 class="card-title">Camiseta anime Naruto - time 7 </h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">R$39,99</a> <a href="#" class="btn btn-primary">visita ></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="img/calça inozuke.jpg" class="card-img-top" alt="top">
+        <div class="card-body">
+          <h5 class="card-title">calça de Hashibira Inosuke </h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">R$120,90</a> <a href="#" class="btn btn-primary">visita ></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="img/blusa luffy.jpg" class="card-img-top" alt="melores">
+        <div class="card-body">
+          <h5 class="card-title">Camiseta One Piece Luffy Anime</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">R$35,99</a> <a href="#" class="btn btn-primary">visita ></a>
+        </div>
+      </div>
+    </section>
+
+    <h5>Recomedação</h5>
+    <section id="popular" class="container-fluid">
+
+      <div class="card" style="width: 18rem;">
+        <img src="img/calça jogger.webp" class="card-img-top" alt="melores">
+        <div class="card-body">
+          <h5 class="card-title">calça jogger em sarja com elástico</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">R$179,90</a> <a href="#" class="btn btn-primary">visita ></a>
+        </div>
+      </div>
+
         <div class="card" style="width: 18rem;">
-          <img src="cami-team 7.webp" class="card-img-top" alt="fantastico">
+          <img src="img/cropped.webp" class="card-img-top" alt="melores">
           <div class="card-body">
-            <h5 class="card-title">Camiseta anime Naruto - time 7 </h5>
+            <h5 class="card-title">cropped jeans cinza sem alças</h5>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">R$39,99</a>
+            <a href="#" class="btn btn-primary">R$159,90</a> <a href="#" class="btn btn-primary">visita ></a>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-          <img src="calça inozuke.jpg" class="card-img-top" alt="top">
+          <img src="img/calça wide.webp" class="card-img-top" alt="melores">
           <div class="card-body">
-            <h5 class="card-title">calça de Hashibira Inosuke de demon slayer</h5>
+            <h5 class="card-title">calça wide leg sarja texturizada azulzinha</h5>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">R$120,90</a>
+            <a href="#" class="btn btn-primary">R$239,90</a> <a href="#" class="btn btn-primary">visita ></a>
           </div>
         </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="blusa luffy.jpg" class="card-img-top" alt="melores">
-          <div class="card-body">
-            <h5 class="card-title">Camiseta One Piece Luffy Anime</h5>
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">R$35,99</a>
-          </div>
-        </div>
-        
-        <div class="card" style="width: 18rem;">
-          <img src="camiseta-dragon ball.png" class="card-img-top" alt="melores">
-          <div class="card-body">
-            <h5 class="card-title">Camiseta Masculina Anime GOKU Estampa frente/Costa</h5>
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-primary">R$35,00</a>
-          </div>
-        </div>
-
-        
-      </section>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
   <footer>
     <nav>
       columns here to organize your footer content.
@@ -124,37 +154,38 @@
       Link 4
       © 2014 Copyright Text
       More Links
-      
-      
-              <footer class="page-footer">
-                <div class="container">
-                  <div class="row">
-                    <div class="col l6 s12">
-                      <h5 class="white-text">Footer Content</h5>
-                      <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                    </div>
-                    <div class="col l4 offset-l2 s12">
-                      <h5 class="white-text">Links</h5>
-                      <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!"><img src="instagram.png"></a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!"><img src="whatsapp-messenger.png"></a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!"><img src="facebook.png"></a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!"><img src="Twitter.png"></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="footer-copyright">
-                  <div class="container">
-                  © 2014 Copyright Text
-                  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-                  </div>
-                </div>
-              </footer>
-                  
+
+
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text"><img src="img/logo.png" id="logorodape"></h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div id="melao" class="col l4 offset-l2 s12">
+
+              <ul>
+
+                <li><a class="grey-text text-lighten-3" href="#!"><img src="img/instagram.png"></a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><img src="img/whatsapp-messenger.png"></a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><img src="img/facebook.png"></a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><img src="img/Twitter.png"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
       </footer>
-      
+
   </footer>
-  </body>
+
+  </footer>
+</body>
 
 </html>

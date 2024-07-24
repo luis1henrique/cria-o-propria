@@ -21,14 +21,23 @@ header img{
     
 }
 .btn-group{
-    margin: 20px;
+    margin: 10px;
     align-items: center;
 }
 #vendidos{
     display: flex;
     justify-content:space-evenly;
+    text-align: center;
 }
 #vendidos img{
+    height: 400px;
+}
+#popular{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+}
+#popular img{
     height: 400px;
 }
 main{
@@ -51,9 +60,20 @@ main {
     flex: 1 0 auto;
 }
 footer{
-    background-image: url("animes_japoneses_entenda_o_que_sao_e_o_porque_de_fazerem_tanto_sucesso-18726989.webp");
-    height: 500px;
+    background-color: rgb(230, 229, 229);
+    height: 300px;
 }
 .page-footer img{
-    height: 70px;
+    height: 50px;
+    
+}
+#logorodape{
+    height: 100px;
+}
+
+#melao{
+    justify-content: flex-start;
+    position: absolute;
+    right: 0%;
+    left: 90%;
 }
